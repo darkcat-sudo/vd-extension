@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    hello
+    <div class="sticky-header">
+        <p>This is a draggable sticky header</p>
+    </div>
+     
+     <div class="draggable" id="draggable">
+        <div class="headex">
+            <p>Video Downloader 1.0</p>
+            <div class="optionsex">
+               <button class="drag-button" onmousedown="startDragging(event)">Hold to Drag</button>  
+            </div> 
+        </div>
+        <div class="vlinks-cont">
+          <div class="vlinks">
+             <video class="tumb" src="https://memes.co.in/Uploads/Media/Jan24/Fri05/1023/d72af08b.mp4"></video>
+             <div class="extitle">this is my cute cat</div>
+             <div class="downloadex">
+                <a href="https://memes.co.in/Uploads/Media/Jan24/Fri05/1023/d72af08b.mp4" download="">Download</a>
+             </div>
+          </div>
+        </div>
+        
+    </div>
+    
+
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+        <!-- Your content goes here -->
+    </div>
 </body>
+<script src="script.js"></script>
 </html>

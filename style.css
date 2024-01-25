@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 3000px;
+    background: violet;
+}
 .sticky-header {
     background-color: #f1f1f1;
     padding: 10px;
